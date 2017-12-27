@@ -1,0 +1,25 @@
+{
+  "network": "livenet",
+  "port": 3001,
+  "datadir": "/bitcoindata",
+  "services": [
+    "address",
+    "block",
+    "db",
+    "header",
+    "insight-api",
+    "insight-ui",
+    "mempool",
+    "p2p",
+    "timestamp",
+    "transaction",
+    "fee",
+    "web"
+  ],
+  "servicesConfig": {
+    "p2p": {
+      "peers": [
+      ]
+    }
+  }
+}
